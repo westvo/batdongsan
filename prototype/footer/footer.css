@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: "roboto" !important;
+  font-size: 1em;
+}
+
+.container-footer {
+  background: #024073;
+  color: white;
+  font-size: .9em;
+  padding: 3em 3em 0 3em;
+}
+
+.sub-company > a {
+  color: #78BFDB;
+}
+
+.contact-list > ul, .contact-list > li{
+  list-style-type: none;
+}
+
+.support-item ul li a, .support-title {
+  color: white;
+  text-decoration: none;
+  transition: all .1s;
+}
+
+.support-title {
+  border-bottom: 1px solid #185383;
+  padding-bottom: .5em;
+  font-size: 1.15em;
+}
+
+.border-section {
+  border-bottom: 1px solid #185383;
+}
+
+.suport-title--info, .brand-title {
+  font-weight: bold;
+}
+
+.support-item ul li, .brand-list, .policy-list {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.support-item ul li a:hover {
+  color: #78BFDB;
+}
+
+/* Accordion */
+.card-brand {
+  border: none;
+  background: #024073;
+}
+
+.card .card-header .brand-accordion {
+  text-decoration: none;
+  color: white;
+  box-shadow: none;
+  border: unset;
+}
+
+.policy-list {
+  font-size: .8em;
+}

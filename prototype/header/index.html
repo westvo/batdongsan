@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kênh thông tin bất động sản - Mua bán nhà đất số 1 Việt Nam</title>
+
+    <!-- Font Awesome 4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Bootstrap & Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./header.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="./../assets/images/ic_logo_2.svg" alt="logo.jpg" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse header"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Nhà đất bán
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Bán căn hộ chung cư</a>
+                <a class="dropdown-item" href="#">Bán nhà riêng</a>
+                <a class="dropdown-item" href="#">Bán nhà biệt thự, liền kề</a>
+                <a class="dropdown-item" href="#">Bán nhà mặt phố</a>
+                <a class="dropdown-item" href="#">Bán đất nền dự án</a>
+                <a class="dropdown-item" href="#">Bán đất</a>
+                <a class="dropdown-item" href="#"
+                  >Bán trang trại, khu nghỉ dưỡng</a
+                >
+                <a class="dropdown-item" href="#">Bán kho, nhà xưởng</a>
+                <a class="dropdown-item" href="#">Bán loại bất động sản khác</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Nhà đất cho thuê
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Cho thuê căn hộ chung cư</a>
+                <a class="dropdown-item" href="#">Cho thuê nhà riêng</a>
+                <a class="dropdown-item" href="#">Cho thuê nhà mặt phố</a>
+                <a class="dropdown-item" href="#"
+                  >Cho thuê nhà trọ, phòng trọ</a
+                >
+                <a class="dropdown-item" href="#">Cho thuê văn phòng</a>
+                <a class="dropdown-item" href="#">Cho thuê cửa hàng - kiốt</a>
+                <a class="dropdown-item" href="#"
+                  >Cho thuê kho, nhà xưởng, đất</a
+                >
+                <a class="dropdown-item" href="#"
+                  >Cho thuê loại bất động sản khác</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dự án
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Căn hộ chung cư</a>
+                <a class="dropdown-item" href="#">Cao ốc văn phòng</a>
+                <a class="dropdown-item" href="#">Trung tâm thương mại</a>
+                <a class="dropdown-item" href="#">Khu đô thị mới</a>
+                <a class="dropdown-item" href="#">Khu phức hợp</a>
+                <a class="dropdown-item" href="#">Nhà ở xã hội</a>
+                <a class="dropdown-item" href="#">Khu nghỉ dưỡng sinh thái</a>
+                <a class="dropdown-item" href="#">Khu công nghiệp</a>
+                <a class="dropdown-item" href="#">Biệt thự liền kề</a>
+                <a class="dropdown-item" href="#">Dự án khác</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Cần mua - Cần thuê
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#"
+                    >Nhà đất cần mua</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Mua căn hộ chung cư</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua nhà riêng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua biệt thự liền kề</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua nhà mặt phố</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua đất nền dự án</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua đất</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua trang trại, khu nghỉ dưỡng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua kho, nhà xưởng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Mua loại bất động sản khác</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#"
+                    >Nhà đất cần thuê</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Cần thuê căn hộ chung cư</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê nhà riêng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê nhà mặt phố</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê nhà trọ, phòng trọ</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê văn phòng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê cửa hàng - kiốt</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê kho, nhà xưởng, đất</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Cần thuê loại bất động sản khác</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Tin tức
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">BĐS & Covid 19</a>
+                <a class="dropdown-item" href="#">Tin thị trường</a>
+                <a class="dropdown-item" href="#">Interaktive Story</a>
+                <a class="dropdown-item" href="#">Phân tích - Nhận định</a>
+                <a class="dropdown-item" href="#">Chính sách - Quản lý</a>
+                <a class="dropdown-item" href="#">Thông tin quy hoạch</a>
+                <a class="dropdown-item" href="#">Bất động sản thế giới</a>
+                <a class="dropdown-item" href="#"
+                  >Tài chính - Chứng khoán - BĐS</a
+                >
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item hover" tabindex="-1" href="#"
+                    >Tư vấn luật</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Trình tự, thủ tục</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Quyền sở hữu</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Tranh chấp</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Xây dựng - Hoàn công</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Nghĩa vụ tài chính</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Các vấn đề có yếu tố nước ngoài</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#">Lời khuyên</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Lời khuyên cho người mua</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Lời khuyên cho người bán</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Lời khuyên cho người đầu tư</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Lời khuyên cho người thuê</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Lời khuyên cho người cho thuê</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Nội-Ngoại thất
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#">Nội thất</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Toàn cảnh ngôi nhà</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phòng khách</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phòng ngủ</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phòng bếp</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phòng tắm</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phòng trẻ em</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Nội thất văn phòng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Khách sạn, nhà hàng, showroom</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <a class="dropdown-item" href="#">Ngoại thất</a>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#">Xây dựng</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Vật liệu xây dựng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Kiến thức xây dựng</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Giải pháp xây dựng</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#">Kiến trúc</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Tư vấn thiết kế</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Kiến trúc xưa và nay</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Thế giới kiến trúc</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Nhà đẹp</a
+                      >
+                    </li>
+                      <div class="dropdown-submenu">
+                        <a class="dropdown-item" tabindex="-1" href="#">Thư viện mẫu nhà</a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">
+                            <a
+                              class="text-decoration-none text-dark"
+                              tabindex="-1"
+                              href="#"
+                              >Nhà phố</a
+                            >
+                          </li>
+                          <li class="dropdown-item">
+                            <a class="text-decoration-none text-dark" href="#"
+                              >Biệt thự</a
+                            >
+                          </li>
+                          <li class="dropdown-item">
+                            <a class="text-decoration-none text-dark" href="#"
+                              >Chung cư</a
+                            >
+                          </li>
+                          <li class="dropdown-item">
+                            <a class="text-decoration-none text-dark" href="#"
+                              >Văn phòng</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                  </ul>
+                </div>
+                <a class="dropdown-item" href="#">Tư vấn nội ngoại thất</a>
+                <a class="dropdown-item" href="#">Mách bạn</a>
+                <a class="dropdown-item" href="#">Mua sắm</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Phong thuỷ
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Phong thuỷ toàn cảnh</a>
+                <a class="dropdown-item" href="#">Tư vấn phong thuỷ</a>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#">Phong thuỷ nhà ở</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a
+                        class="text-decoration-none text-dark"
+                        tabindex="-1"
+                        href="#"
+                        >Phong thuỷ phòng ngủ</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phong thuỷ phòng khách</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phong thuỷ phòng bếp</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phong thuỷ phòng tắm</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="text-decoration-none text-dark" href="#"
+                        >Phong thuỷ cửa chính, sân vườn</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <a class="dropdown-item" href="#">Phong thuỷ văn phòng</a>
+                <a class="dropdown-item" href="#">Phong thuỷ theo tuổi</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Danh bạ
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Nhà môi giới</a>
+                <a class="dropdown-item" href="#">Doanh nghiệp</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 login-register-form">
+            <i class="fa fa-heart-o nav-list__link" aria-hidden="true"></i>
+            <a href="#" class="nav-list__link text-decoration-none"
+              >Đăng nhập</a
+            >
+            <a href="#" class="nav-list__link text-decoration-none">Đăng kí</a>
+            <a
+              href="#"
+              class="nav-list__link nav-list__link--fake-btn text-decoration-none"
+              >Đăng tin
+            </a>
+          </form>
+        </div>
+      </nav>
+      <div class="row w-75">
+      </div>
+    </div>
+  </body>
+</html>
