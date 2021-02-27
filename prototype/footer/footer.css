@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: "roboto" !important;
+  font-size: 1em;
+}
+
+.container-footer {
+  background: #024073;
+  color: white;
+  font-size: .9em;
+  padding: 2em;
+}
+
+.sub-company > a {
+  color: #78BFDB;
+}
+
+.contact-list > ul, .contact-list > li{
+  list-style-type: none;
+}
+
+.support-item ul li a, .support-title {
+  color: white;
+  text-decoration: none;
+  transition: all .1s;
+}
+
+.support-title {
+  border-bottom: 1px solid #185383;
+  padding-bottom: .5em;
+  font-size: 1.15em;
+}
+
+.border-section {
+  border-bottom: 1px solid #185383;
+}
+
+.suport-title--info {
+  font-weight: bold;
+}
+
+.support-item ul li {
+  list-style-type: none;
+}
+
+.support-item ul li a:hover {
+  color: #78BFDB;
+}
