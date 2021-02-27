@@ -39,11 +39,11 @@
   </head>
   <body>
     <div class="container container-footer">
-      <div class="row pb-2 border-section">
+      <div class="row border-section">
         <div
           class="col-md-4 d-flex flex-column justify-content-center align-items-center"
         >
-          <a href="">
+          <a href="#">
             <img
               src="./../assets/images/logo-footer-no1.svg"
               class="img-fluid"
@@ -189,31 +189,144 @@
             <div class="mail-subcribe w-50">
               <span>Đăng kí ngay để nhận thông tin từ Batdongsan.com.vn</span>
               <form class="d-flex mt-1" action="">
-                <input type="email" class="form-control" placeholder="Nhập email của bạn"/>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Nhập email của bạn"
+                />
                 <button class="btn btn-success">Gửi</button>
               </form>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Accordion -->
-    <!-- <div class="accordion" id="accordionExample">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Collapsible Group Item #1
-            </button>
-          </h2>
-        </div>
 
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-          <div class="card-body">
-            Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+      <!-- Accordion -->
+      <div class="accordion mt-3 border-section" id="accordionExample">
+        <div class="card card-brand">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block text-left brand-accordion d-flex justify-content-between"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Xem tất cả chi nhánh của batdongsan.com
+                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="brand-list">
+                    <li class="brand-title">Chi nhánh TP. Hồ Chí Minh</li>
+                    <li>
+                      Tầng 8, Tòa nhà Xổ số Kiến thiết (Lottery Tower), Số 77
+                      Trần Nhân Tôn, Phường 9, Quận 5, TP. Hồ Chí Minh
+                    </li>
+                    <li>
+                      Điện
+                      thoại: 0904 893 279
+                    </li>
+                    <li class="brand-title mt-3">
+                      Văn phòng Quận 1 TP. Hồ Chí Minh
+                    </li>
+                    <li>
+                      Lầu 5 Sailing Tower, 111A Pasteur, phường Bến Nghé, Quận
+                      1, TP. Hồ Chí Minh Điện thoại: 090 494 6163
+                    </li>
+                    <li class="brand-title mt-3">Chi nhánh Đà Nẵng</li>
+                    <li>
+                      Tầng 9, tòa nhà Vĩnh Trung Plaza, số 255 – 257 Hùng Vương,
+                      phường Vĩnh Trung, quận Thanh Khê, TP. Đà Nẵng Điện thoại:
+                      (0236) 3 666 968 - Mobile: 0904 907 279
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="brand-list">
+                    <li class="brand-title">Chi nhánh Nha Trang</li>
+                    <li>
+                      Tầng 6, Tòa nhà CTCP Điện Lực Khánh Hòa, 11 Lý Thánh Tôn,
+                      Phường Vạn Thạnh, TP Nha Trang, Khánh Hòa Điện thoại:
+                      (0258) 3 818 886 - Mobile: 0902 169 295
+                    </li>
+                    <li class="brand-title mt-3">Chi nhánh Hải Phòng</li>
+                    <li>
+                      Phòng 601B, TD Business Center, lô 20A Lê Hồng Phong, quận
+                      Ngô Quyền, TP. Hải Phòng Điện thoại: (0225) 3 246 848 -
+                      Mobile: 0903 456 322
+                    </li>
+                    <li class="brand-title mt-3">Chi nhánh Cần Thơ</li>
+                    <li>
+                      Lầu 8, số 8 đường Phan Văn Trị, phường An Phú, quận Ninh
+                      Kiều, TP. Cần Thơ Điện thoại: (0292) 3 837 838 - Mobile:
+                      0902 229 697
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="brand-list">
+                    <li class="brand-title">Chi nhánh Vũng Tàu</li>
+                    <li>
+                      Tầng 4, tòa nhà ACB, số 111 Hoàng Hoa Thám, phường 2, TP.
+                      Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu Điện thoại: (0254) 3 511
+                      339 - Mobile: 0904 509 293
+                    </li>
+                    <li class="brand-title mt-3">Chi nhánh Bình Dương</li>
+                    <li>
+                      Phòng 10, tầng 16, Becamex Tower, số 230 Đại lộ Bình
+                      Dương, P.Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương Điện
+                      thoại: (0274) 22 21 201, Mobile: 0919 255 580
+                    </li>
+                    <li class="brand-title mt-3">Chi nhánh Đồng Nai</li>
+                    <li>
+                      Lầu 18, tòa Pegasus, số 53-55 đường Võ Thị Sáu, phường
+                      Quyết Thắng, TP. Biên Hoà, tỉnh Đồng Nai Điện thoại: 0906
+                      282 428
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> -->
+
+      <div class="row mt-4">
+        <div class="col-md-5">
+          <ul class="policy-list ml-3">
+            <li>Giấy ĐKKD số 0104630479 do Sở KHĐT TP Hà Nội cấp lần đầu ngày 02/06/2010</li>
+            <li>Giấy phép ICP số 2399/GP-STTTT do Sở TTTT Hà Nội cấp ngày 04/09/2014</li>
+            <li>Giấy phép GH ICP số 3832/GP-TTĐT do Sở TTTT Hà Nội cấp ngày 08/08/2019</li>
+            <li>Giấy phép SĐ, BS GP ICP số 3833/GP-TTĐT do Sở TTTT Hà Nội cấp ngày 08/08/2019</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="policy-list">
+            <li>Chịu trách nhiệm nội dung GP ICP: Bà Đặng Thị Hường</li>
+            <li>Chịu trách nhiệm sàn GDTMĐT: Ông Vũ Triệu Vương (Robert Vuong Trieu Vu)</li>
+            <li>Quy chế, quy định giao dịch có hiệu lực từ 23/02/2020 </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="policy-list">
+            <li>Copyright © 2007 - 2021 Batdongsan.com.vn</li>
+            <li>Ghi rõ nguồn "Batdongsan.com.vn" khi phát hành lại thông tin từ website này. </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

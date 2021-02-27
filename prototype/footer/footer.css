@@ -14,7 +14,7 @@ body {
   background: #024073;
   color: white;
   font-size: .9em;
-  padding: 2em;
+  padding: 3em 3em 0 3em;
 }
 
 .sub-company > a {
@@ -41,14 +41,32 @@ body {
   border-bottom: 1px solid #185383;
 }
 
-.suport-title--info {
+.suport-title--info, .brand-title {
   font-weight: bold;
 }
 
-.support-item ul li {
+.support-item ul li, .brand-list, .policy-list {
   list-style-type: none;
+  padding-left: 5px;
 }
 
 .support-item ul li a:hover {
   color: #78BFDB;
+}
+
+/* Accordion */
+.card-brand {
+  border: none;
+  background: #024073;
+}
+
+.card .card-header .brand-accordion {
+  text-decoration: none;
+  color: white;
+  box-shadow: none;
+  border: unset;
+}
+
+.policy-list {
+  font-size: .8em;
 }
